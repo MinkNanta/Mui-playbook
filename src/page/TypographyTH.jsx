@@ -1,0 +1,62 @@
+import { Box, Typography } from '@mui/material'
+import React from 'react'
+
+export default function TypographyTH() {
+    return (
+        <Box sx={{ width: '100%', maxWidth: 500, }} fontFamily="fontFamilyThai">
+            <Typography variant="d1" >
+                d1. โซลูชันธุรกิจออนไลน์สำหรับผู้ขายและผู้ซื้อ
+            </Typography>
+            <Typography variant="d2" gutterBottom>
+                d2. โซลูชันธุรกิจออนไลน์สำหรับผู้ขายและผู้ซื้อ
+            </Typography>
+            <Typography variant="h1" gutterBottom>
+                h1. โซลูชันธุรกิจออนไลน์สำหรับผู้ขายและผู้ซื้อ
+            </Typography>
+            <Typography variant="h2" gutterBottom>
+                h2. โซลูชันธุรกิจออนไลน์สำหรับผู้ขายและผู้ซื้อ
+            </Typography>
+            <Typography variant="h3" gutterBottom>
+                h3. โซลูชันธุรกิจออนไลน์สำหรับผู้ขายและผู้ซื้อ
+            </Typography>
+            <Typography variant="h4" gutterBottom>
+                h4. โซลูชันธุรกิจออนไลน์สำหรับผู้ขายและผู้ซื้อ
+            </Typography>
+            <Typography variant="h5" gutterBottom>
+                h5. โซลูชันธุรกิจออนไลน์สำหรับผู้ขายและผู้ซื้อ
+            </Typography>
+            <Typography variant="h6" gutterBottom>
+                h6. โซลูชันธุรกิจออนไลน์สำหรับผู้ขายและผู้ซื้อ
+            </Typography>
+            <Typography variant="subtitle1" gutterBottom>
+                subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                blanditiis tenetur
+            </Typography>
+            <Typography variant="subtitle2" gutterBottom>
+                subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                blanditiis tenetur
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+                body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
+                neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
+                quasi quidem quibusdam.
+            </Typography>
+            <Typography variant="body2" gutterBottom>
+                body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
+                neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
+                quasi quidem quibusdam.
+            </Typography>
+            <Typography variant="button" display="block" gutterBottom>
+                button text
+            </Typography>
+            <Typography variant="caption" display="block" gutterBottom>
+                caption text
+            </Typography>
+            <Typography variant="overline" display="block" gutterBottom>
+                overline text
+            </Typography>
+        </Box>
+    )
+}

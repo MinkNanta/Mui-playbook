@@ -1,0 +1,348 @@
+{
+    "palette": {
+        "primary": {
+            "50": "#f2f6ff",
+            "100": "#d9e6ff",
+            "200": "#b6caf2",
+            "300": "#91b1f2",
+            "400": "#6d99f2",
+            "500": "#1451cc",
+            "600": "#173799",
+            "700": "#192c66",
+            "800": "#17244c",
+            "900": "#17244c",
+            "lightest": "#f2f6ff",
+            "lighter": "#d9e6ff",
+            "light": "#6d99f2",
+            "main": "#1451cc",
+            "dark": "#173799",
+            "darker": "#192c66",
+            "darkest": "#17244c",
+            "contrastText": "#fff"
+        },
+        "primaryDark": {
+            "50": "#E2EDF8",
+            "100": "#CEE0F3",
+            "200": "#91B9E3",
+            "300": "#5090D3",
+            "400": "#265D97",
+            "500": "#1E4976",
+            "600": "#173A5E",
+            "700": "#132F4C",
+            "800": "#001E3C",
+            "900": "#0A1929",
+            "main": "#5090D3"
+        },
+        "grey": {
+            "50": "#f2f4f7",
+            "100": "#e6eaf2",
+            "200": "#ced3de",
+            "300": "#b8becc",
+            "400": "#98a1b2",
+            "500": "#7a8499",
+            "600": "#475266",
+            "700": "#323b4c",
+            "800": "#1c2433",
+            "900": "#131926",
+            "lightest": "#f2f4f7",
+            "lighter": "#e6eaf2",
+            "light": "#98a1b2",
+            "main": "#7a8499",
+            "dark": "#475266",
+            "darker": "#323b4c",
+            "darkest": "#1c2433",
+            "contrastText": "#6F7E8C",
+            "A100": "#f5f5f5",
+            "A200": "#eeeeee",
+            "A400": "#bdbdbd",
+            "A700": "#616161"
+        },
+        "error": {
+            "50": "#fff2f3",
+            "100": "#ffe5e8",
+            "200": "#ff9999",
+            "300": "#ff7373",
+            "400": "#ff7373",
+            "500": "#f24949",
+            "600": "#d90b0b",
+            "700": "#bf0a19",
+            "800": "#8c0e19",
+            "900": "#66050d",
+            "lightest": "#fff2f3",
+            "lighter": "#ffe5e8",
+            "light": "#ff7373",
+            "main": "#f24949",
+            "dark": "#d90b0b",
+            "darker": "#bf0a19",
+            "darkest": "#8c0e19",
+            "contrastText": "#fff"
+        },
+        "success": {
+            "50": "#e5fff7",
+            "100": "#d9fff2",
+            "200": "#a9f2e0",
+            "300": "#77d9c0",
+            "400": "#77d9c0",
+            "500": "#0abf92",
+            "600": "#08a67e",
+            "700": "#138064",
+            "800": "#045944",
+            "900": "#034031",
+            "lightest": "#e5fff7",
+            "lighter": "#d9fff2",
+            "light": "#77d9c0",
+            "main": "#0abf92",
+            "dark": "#08a67e",
+            "darker": "#138064",
+            "darkest": "#045944",
+            "contrastText": "#fff"
+        },
+        "warning": {
+            "50": "#fff9e5",
+            "100": "#fff6d9",
+            "200": "#ffe9a6",
+            "300": "#ffdf80",
+            "400": "#ffdf80",
+            "500": "#ffd24c",
+            "600": "#f2b90c",
+            "700": "#cc9c0a",
+            "800": "#997817",
+            "900": "#735a11",
+            "lightest": "#fff9e5",
+            "lighter": "#fff6d9",
+            "light": "#ffdf80",
+            "main": "#ffd24c",
+            "dark": "#f2b90c",
+            "darker": "#cc9c0a",
+            "darkest": "#997817",
+            "contrastText": "rgba(0, 0, 0, 0.87)"
+        },
+        "info": {
+            "50": "#f2f6ff",
+            "100": "#d9e6ff",
+            "200": "#b6caf2",
+            "300": "#91b1f2",
+            "400": "#6d99f2",
+            "500": "#457ae5",
+            "600": "#1451cc",
+            "700": "#173799",
+            "800": "#192c66",
+            "900": "#17244c",
+            "lightest": "#f2f6ff",
+            "lighter": "#d9e6ff",
+            "light": "#6d99f2",
+            "main": "#457ae5",
+            "dark": "#1451cc",
+            "darker": "#173799",
+            "darkest": "#192c66",
+            "contrastText": "#fff"
+        },
+        "background": {
+            "paper": "white",
+            "default": "#fff",
+            "surface": "#f2f6ff"
+        },
+        "action": {
+            "active": "rgba(0, 0, 0, 0.54)",
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "activatedOpacity": 0.12
+        },
+        "common": {
+            "black": "#1D1D1D",
+            "white": "#fff"
+        },
+        "text": {
+            "primary": "#131926",
+            "secondary": "#475266",
+            "tertiary": "#98a1b2",
+            "accent": "#173799",
+            "error": "#f24949",
+            "disabled": "rgba(0, 0, 0, 0.38)"
+        },
+        "divider": "#ced3de"
+    },
+    "shape": {
+        "borderRadius": 6
+    },
+    "typography": {
+        "fontFamily": "\"Poppins\",-apple-system,BlinkMacSystemFont,\"Eventpop\",Roboto,\"Helvetica Neue\",Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+        "fontFamilyCode": "monospace",
+        "fontFamilyTagline": "Poppins",
+        "fontFamilySystem": "Poppins",
+        "fontFamilyEng": "Poppins",
+        "fontFamilyThai": "Eventpop",
+        "htmlFontSize": 16,
+        "fontSize": 14,
+        "fontWeightLight": 300,
+        "fontWeightRegular": 400,
+        "fontWeightMedium": 500,
+        "fontWeightSemiBold": 600,
+        "fontWeightBold": 700,
+        "fontWeightExtraBold": 800,
+        "d1": {
+            "display": "inline-block",
+            "fontSize": "5.5rem",
+            "fontWeight": 600,
+            "lineHeight": 1.5,
+            "letter-spacing": "-0.03em"
+        },
+        "d2": {
+            "display": "inline-block",
+            "fontSize": "5rem",
+            "fontWeight": 600,
+            "lineHeight": 1.5,
+            "letter-spacing": "-0.03em"
+        },
+        "h1": {
+            "fontSize": "4rem",
+            "fontWeight": 600,
+            "lineHeight": 1.5,
+            "letter-spacing": "-0.03em"
+        },
+        "h2": {
+            "fontSize": "3.5rem",
+            "fontWeight": 600,
+            "lineHeight": 1.5,
+            "letter-spacing": "-0.03em"
+        },
+        "h3": {
+            "fontSize": "2.5rem",
+            "fontWeight": 600,
+            "lineHeight": 1.25,
+            "letter-spacing": "-0.02em"
+        },
+        "h4": {
+            "fontSize": "2rem",
+            "fontWeight": 600,
+            "lineHeight": 1.25,
+            "letter-spacing": "-0.02em"
+        },
+        "h5": {
+            "fontSize": "1.5rem",
+            "fontWeight": 600,
+            "lineHeight": 1.25,
+            "letter-spacing": "-0.02em"
+        },
+        "h6": {
+            "fontSize": "1.25rem",
+            "fontWeight": 600,
+            "lineHeight": 1.5,
+            "letter-spacing": "-0.01em"
+        },
+        "button": {
+            "textTransform": "initial",
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "fontSize": "0.875rem",
+            "lineHeight": 1.75,
+            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+        },
+        "subtitle1": {
+            "fontSize": "1.125rem",
+            "lineHeight": 1.3333333333333333,
+            "letterSpacing": 0,
+            "fontWeight": 500,
+            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+        },
+        "body1": {
+            "fontSize": "1rem",
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "fontWeight": 400,
+            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+        },
+        "body2": {
+            "fontSize": "0.875rem",
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "fontWeight": 400,
+            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+        },
+        "caption": {
+            "display": "inline-block",
+            "fontSize": "0.75rem",
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "fontWeight": 700,
+            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+        },
+        "allVariants": {
+            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+        },
+        "subtitle2": {
+            "fontWeight": 500,
+            "fontSize": "0.875rem",
+            "lineHeight": 1.57,
+            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+        },
+        "overline": {
+            "fontWeight": 400,
+            "fontSize": "0.75rem",
+            "lineHeight": 2.66,
+            "textTransform": "uppercase",
+            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+        }
+    },
+    "shadows": [
+        "none",
+        "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+        "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+        "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+        "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+        "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+        "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+        "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+        "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+        "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+        "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+        "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+        "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+        "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+        "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+        "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+        "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+        "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+        "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)"
+    ],
+    "transitions": {
+        "easing": {
+            "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+            "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+            "sharp": "cubic-bezier(0.4, 0, 0.6, 1)"
+        },
+        "duration": {
+            "shortest": 150,
+            "shorter": 200,
+            "short": 250,
+            "standard": 300,
+            "complex": 375,
+            "enteringScreen": 225,
+            "leavingScreen": 195
+        }
+    },
+    "zIndex": {
+        "mobileStepper": 1000,
+        "fab": 1050,
+        "speedDial": 1050,
+        "appBar": 1100,
+        "drawer": 1200,
+        "modal": 1300,
+        "snackbar": 1400,
+        "tooltip": 1500
+    }
+}
