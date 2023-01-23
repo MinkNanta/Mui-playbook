@@ -1,9 +1,16 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
+import opnToken from "../theme.json"
+
 
 export default function TypographyEng() {
+    const fontFamily = opnToken.typography.fontFamily
+
     return (
-        <Box sx={{ width: '100%', maxWidth: 500 }} >
+        <Box sx={{ '& span,h1,h2,h3,h4,h5,h6,p': { mb: 6 } }} fontFamily="fontFamilyEN">
+            <Typography variant="h4" gutterBottom>Typography - English</Typography>
+            <Typography variant="body1" gutterBottom>fontFamily: {fontFamily}</Typography>
+
             <Typography variant="d1" gutterBottom>
                 d1. Display
             </Typography>
@@ -58,5 +65,6 @@ export default function TypographyEng() {
                 overline text
             </Typography>
         </Box>
+
     )
 }

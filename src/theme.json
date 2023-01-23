@@ -12,26 +12,13 @@
             "800": "#17244c",
             "900": "#17244c",
             "lightest": "#f2f6ff",
-            "lighter": "#d9e6ff",
+            "lighter": "#b6caf2",
             "light": "#6d99f2",
             "main": "#1451cc",
             "dark": "#173799",
             "darker": "#192c66",
             "darkest": "#17244c",
-            "contrastText": "#fff"
-        },
-        "primaryDark": {
-            "50": "#E2EDF8",
-            "100": "#CEE0F3",
-            "200": "#91B9E3",
-            "300": "#5090D3",
-            "400": "#265D97",
-            "500": "#1E4976",
-            "600": "#173A5E",
-            "700": "#132F4C",
-            "800": "#001E3C",
-            "900": "#0A1929",
-            "main": "#5090D3"
+            "contrast": "#ffffff"
         },
         "grey": {
             "50": "#f2f4f7",
@@ -51,11 +38,7 @@
             "dark": "#475266",
             "darker": "#323b4c",
             "darkest": "#1c2433",
-            "contrastText": "#6F7E8C",
-            "A100": "#f5f5f5",
-            "A200": "#eeeeee",
-            "A400": "#bdbdbd",
-            "A700": "#616161"
+            "contrast": "#ffffff"
         },
         "error": {
             "50": "#fff2f3",
@@ -75,7 +58,7 @@
             "dark": "#d90b0b",
             "darker": "#bf0a19",
             "darkest": "#8c0e19",
-            "contrastText": "#fff"
+            "contrast": "#ffffff"
         },
         "success": {
             "50": "#e5fff7",
@@ -97,6 +80,26 @@
             "darkest": "#045944",
             "contrastText": "#fff"
         },
+        "secondary": {
+            "50": "#f2f6ff",
+            "100": "#f2f6ff",
+            "200": "#d9e6ff",
+            "300": "#d9e6ff",
+            "400": "#d9e6ff",
+            "500": "#d9e6ff",
+            "600": "#91b1f2",
+            "700": "#6d99f2",
+            "800": "#1451cc",
+            "900": "#1451cc",
+            "lightest": "#f2f6ff",
+            "lighter": "#d9e6ff",
+            "light": "#d9e6ff",
+            "main": "#d9e6ff",
+            "dark": "#91b1f2",
+            "darker": "#6d99f2",
+            "darkest": "#1451cc",
+            "contrastText": "#1451cc"
+        },
         "warning": {
             "50": "#fff9e5",
             "100": "#fff6d9",
@@ -115,7 +118,7 @@
             "dark": "#f2b90c",
             "darker": "#cc9c0a",
             "darkest": "#997817",
-            "contrastText": "rgba(0, 0, 0, 0.87)"
+            "contrast": "#ffffff"
         },
         "info": {
             "50": "#f2f6ff",
@@ -134,51 +137,37 @@
             "main": "#457ae5",
             "dark": "#1451cc",
             "darker": "#173799",
-            "darkest": "#192c66",
-            "contrastText": "#fff"
-        },
-        "background": {
-            "paper": "white",
-            "default": "#fff",
-            "surface": "#f2f6ff"
-        },
-        "action": {
-            "active": "rgba(0, 0, 0, 0.54)",
-            "hover": "rgba(0, 0, 0, 0.04)",
-            "hoverOpacity": 0.04,
-            "selected": "rgba(0, 0, 0, 0.08)",
-            "selectedOpacity": 0.08,
-            "disabled": "rgba(0, 0, 0, 0.26)",
-            "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "disabledOpacity": 0.38,
-            "focus": "rgba(0, 0, 0, 0.12)",
-            "focusOpacity": 0.12,
-            "activatedOpacity": 0.12
-        },
-        "common": {
-            "black": "#1D1D1D",
-            "white": "#fff"
+            "contrast": "#ffffff"
         },
         "text": {
             "primary": "#131926",
             "secondary": "#475266",
             "tertiary": "#98a1b2",
+            "disabled": "rgba(152, 161, 178, 0.5)",
+            "white": "#fff",
             "accent": "#173799",
-            "error": "#f24949",
-            "disabled": "rgba(0, 0, 0, 0.38)"
+            "success": "#08A67E",
+            "warning": "#f2b90c",
+            "error": "#f24949"
         },
-        "divider": "#ced3de"
+        "action": {
+            "hoverOpacity": 0.04,
+            "selectedOpacity": 0.08,
+            "disabledOpacity": 0.38,
+            "focusOpacity": 0.12,
+            "disabled": "rgba(71, 82, 102, 0.3)",
+            "disabledBackground": "#E6EAF2",
+            "active": "rgba(0, 0, 0, 0.56)"
+        },
+        "divider": "#E6EAF2"
     },
     "shape": {
         "borderRadius": 6
     },
     "typography": {
-        "fontFamily": "\"Poppins\",-apple-system,BlinkMacSystemFont,\"Eventpop\",Roboto,\"Helvetica Neue\",Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
-        "fontFamilyCode": "monospace",
-        "fontFamilyTagline": "Poppins",
-        "fontFamilySystem": "Poppins",
-        "fontFamilyEng": "Poppins",
-        "fontFamilyThai": "Eventpop",
+        "fontFamily": "\"CircularStd\",\"Kanit\",Arial,\"sans-serif\"",
+        "fontFamilyEN": "\"CircularStd\",\"Helvetica\",Arial,\"sans-serif\"",
+        "fontFamilyTH": "\"Kanit\",\"sans-serif\"",
         "htmlFontSize": 16,
         "fontSize": 14,
         "fontWeightLight": 300,
@@ -188,14 +177,14 @@
         "fontWeightBold": 700,
         "fontWeightExtraBold": 800,
         "d1": {
-            "display": "inline-block",
+            "display": "block",
             "fontSize": "5.5rem",
             "fontWeight": 600,
             "lineHeight": 1.5,
             "letter-spacing": "-0.03em"
         },
         "d2": {
-            "display": "inline-block",
+            "display": "block",
             "fontSize": "5rem",
             "fontWeight": 600,
             "lineHeight": 1.5,
@@ -242,37 +231,32 @@
             "fontWeight": 400,
             "letterSpacing": 0,
             "fontSize": "0.875rem",
-            "lineHeight": 1.75,
-            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+            "lineHeight": 1.75
         },
         "subtitle1": {
             "fontSize": "1.125rem",
             "lineHeight": 1.3333333333333333,
             "letterSpacing": 0,
-            "fontWeight": 500,
-            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+            "fontWeight": 500
         },
         "body1": {
             "fontSize": "1rem",
             "lineHeight": 1.5,
             "letterSpacing": 0,
-            "fontWeight": 400,
-            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+            "fontWeight": 400
         },
         "body2": {
             "fontSize": "0.875rem",
             "lineHeight": 1.5,
             "letterSpacing": 0,
-            "fontWeight": 400,
-            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+            "fontWeight": 400
         },
         "caption": {
             "display": "inline-block",
             "fontSize": "0.75rem",
             "lineHeight": 1.5,
             "letterSpacing": 0,
-            "fontWeight": 700,
-            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+            "fontWeight": 700
         },
         "allVariants": {
             "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
@@ -280,43 +264,24 @@
         "subtitle2": {
             "fontWeight": 500,
             "fontSize": "0.875rem",
-            "lineHeight": 1.57,
-            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+            "lineHeight": 1.57
         },
         "overline": {
             "fontWeight": 400,
             "fontSize": "0.75rem",
             "lineHeight": 2.66,
-            "textTransform": "uppercase",
-            "scrollMarginTop": "calc(var(--MuiDocs-header-height) + 32px)"
+            "textTransform": "uppercase"
         }
     },
     "shadows": [
-        "none",
-        "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
-        "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
-        "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
-        "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
-        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
-        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
-        "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
-        "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
-        "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
-        "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
-        "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
-        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
-        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
-        "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
-        "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
-        "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
-        "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
-        "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
-        "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
-        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
-        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
-        "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
-        "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
-        "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)"
+        "0 0 #131926",
+        "0px 1px 2px rgba(19, 25, 38, 0.08)",
+        "0px 1px 3px rgba(19, 25, 38, 0.08), 0px 1px 2px rgba(19, 25, 38, 0.08)",
+        "0px 4px 8px -2px rgba(19, 25, 38, 0.12), 0px 2px 4px -2px rgba(19, 25, 38, 0.04)",
+        "0px 20px 24px -4px rgba(19, 25, 38, 0.08), 0px 8px 8px -4px rgba(19, 25, 38, 0.04)",
+        "0px 12px 16px -4px rgba(19, 25, 38, 0.08), 0px 4px 6px -2px rgba(19, 25, 38, 0.04)",
+        "0px 24px 48px -12px rgba(19, 25, 38, 0.2)",
+        "0px 32px 64px -12px rgba(19, 25, 38, 0.16)"
     ],
     "transitions": {
         "easing": {
@@ -344,5 +309,15 @@
         "modal": 1300,
         "snackbar": 1400,
         "tooltip": 1500
+    },
+    "components": {
+        "MuiTypography": {
+            "defaultProps": {
+                "variantMapping": {
+                    "d1": "h1",
+                    "d2": "h1"
+                }
+            }
+        }
     }
 }

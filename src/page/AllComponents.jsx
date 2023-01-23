@@ -1,7 +1,7 @@
 import Button from '@mui/material/Button';
 import Badge from '@mui/material/Badge';
 import MailIcon from '@mui/icons-material/Mail';
-import { Alert, Box, ButtonGroup, Typography } from '@mui/material';
+import { Alert, Box, ButtonGroup, Chip, Pagination, PaginationItem, Typography } from '@mui/material';
 import { Stack } from '@mui/system';
 import DatePicker from './DatePicker';
 import ButtonComponents from './ButtonComponents';
@@ -12,35 +12,24 @@ import TypographyTH from './TypographyTH';
 import Checkboxes from './Checkboxes';
 import RadioButtonsGroup from './RadioButtonsGroup';
 import BasicSwitches from './BasicSwitches';
+import SelectVariants from './SelectVariants';
 
-
+import ReactDOM from 'react-dom';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 
 export default function AllComponents() {
     const opnColor = opnToken.palette
 
 
+
     return (
+
         <Stack
             direction="row"
             spacing={4}
             fontFamily="fontFamilyEng">
-            <Box
-                width={"360px"}
-                height="100"
-                backgroundColor="background.surface"
-                p={4}
-            >
-                <Box position="sticky" style={{
-                    top: 24,
-                    zIndex: 2
-                }}>
-                    <Typography variant="h4">MUI x opnToken </Typography>
-                    <Box mt={4}>
-                        <Typography variant="h6">Palette</Typography>
-                    </Box>
-                </Box>
-            </Box>
+
             <Box p={4} >
                 <Box >
                     <Typography variant="h4" gutterBottom>Palette</Typography>
@@ -70,6 +59,29 @@ export default function AllComponents() {
                         </Box>)
                         }
                     </Box>
+
+                    <Stack direction="row" spacing={1}>
+                        <Chip label="primary" color="primary" />
+                        <Chip label="success" color="success" />
+                        <Chip label="error" color="error" />
+                        <Chip label="secondary" color="secondary" />
+                    </Stack>
+                    <Stack direction="row" spacing={1}>
+                        <Chip label="primary" color="primary" variant="outlined" />
+                        <Chip label="success" color="success" variant="outlined" />
+                    </Stack>
+
+                    <Box mt={4} sx={{ '& div': { mb: 4 } }}>
+                        <Box width={120} height={120} backgroundColor="primary.lightest" boxShadow={0}>shadow 0</Box>
+                        <Box width={120} height={120} backgroundColor="primary.lightest" boxShadow={1}>shadow 1</Box>
+                        <Box width={120} height={120} backgroundColor="primary.lightest" boxShadow={2}>shadow 2</Box>
+                        <Box width={120} height={120} backgroundColor="primary.lightest" boxShadow={3}>shadow 3</Box>
+                        <Box width={120} height={120} backgroundColor="primary.lightest" boxShadow={4}>shadow 4</Box>
+                        <Box width={120} height={120} backgroundColor="primary.lightest" boxShadow={5}>shadow 5</Box>
+                        <Box width={120} height={120} backgroundColor="primary.lightest" boxShadow={6}>shadow 6</Box>
+                        <Box width={120} height={120} backgroundColor="primary.lightest" boxShadow={7}>shadow 7</Box>
+                    </Box>
+
                 </Box>
                 <Box id="input" mt={4}>
                     <Typography variant="h4" gutterBottom>Input</Typography>
@@ -112,6 +124,10 @@ export default function AllComponents() {
                     <Typography variant="h4" gutterBottom>BasicSwitches</Typography>
                     <BasicSwitches />
                 </Box>
+                <Box id="SelectVariants" mt={4}>
+                    <Typography variant="h4" gutterBottom>SelectVariants</Typography>
+                    <SelectVariants />
+                </Box>
                 <Box id="alert" mt={4}>
                     <Typography variant="h4" gutterBottom>Alert</Typography>
                     <Stack sx={{ width: '100%' }} spacing={2}>
@@ -130,7 +146,14 @@ export default function AllComponents() {
                     <Typography variant="h4" gutterBottom>Typography</Typography>
                     <TypographyTH />
                 </Box>
+                <Pagination color="primary" variant="outlined" count={10} />outline
+                <Pagination color="error" variant="outlined" count={10} />outline
+                <Pagination color="warning" variant="outlined" count={10} />outline
+                <Pagination count={10} color="primary" />
+                <Pagination count={10} color="secondary" />
+                <Pagination count={10} disabled />
             </Box >
         </Stack >
+
     )
 }
